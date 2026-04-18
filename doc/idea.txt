@@ -1,0 +1,1 @@
+我们目前研究的进度 是已经构建了pipeline的survey eval model 正在训练survey eval agent在京东杯这一阶段我们用E-Gen Evo-Survey-Gen 这概念完成龙虾赛道的投递 ；就我们需要投一个龙虾赛道 我们用写survey 自动根据eval结果进行修改的bp 进行提交 就这是一个偏创新创业的赛道 纯survel-eval的task太学术了
