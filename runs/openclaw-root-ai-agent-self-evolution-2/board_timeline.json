@@ -1,0 +1,53 @@
+[
+  {
+    "position": 1,
+    "stage_name": "generate_initial_draft_stage",
+    "round_index": 0,
+    "status": "completed",
+    "started_at": "2026-04-17T20:47:09.353038+00:00",
+    "ended_at": "2026-04-17T20:49:30.024571+00:00",
+    "summary": {
+      "mode": "topic",
+      "title": "Literature Survey: AI Agent Self-Evolution",
+      "execution_mode": "local_only",
+      "executor_backend": "local",
+      "fallback_reason": "",
+      "openclaw_request_id": ""
+    }
+  },
+  {
+    "position": 2,
+    "stage_name": "score_draft_stage",
+    "round_index": 0,
+    "status": "completed",
+    "started_at": "2026-04-17T20:49:30.024571+00:00",
+    "ended_at": "2026-04-17T20:49:47.901924+00:00",
+    "summary": {
+      "total_score": 5,
+      "average_score": 1.25,
+      "cache_used": false,
+      "execution_mode": "local_fallback",
+      "executor_backend": "local",
+      "fallback_reason": "executor_not_configured",
+      "openclaw_request_id": ""
+    }
+  },
+  {
+    "position": 3,
+    "stage_name": "finalize_scored_round_stage",
+    "round_index": 0,
+    "status": "completed",
+    "started_at": "2026-04-17T20:49:47.901924+00:00",
+    "ended_at": "2026-04-17T20:49:47.906541+00:00",
+    "summary": {
+      "total_score": 5,
+      "best_round_index": 0,
+      "best_total_score": 5,
+      "stop_reason": "max_rounds_reached",
+      "execution_mode": "local_only",
+      "executor_backend": "local",
+      "fallback_reason": "",
+      "openclaw_request_id": ""
+    }
+  }
+]

@@ -1,0 +1,19 @@
+# Prompt Templates Benchmark Report
+
+- Backend: prompt_templates_local_benchmark
+- Rubric source: prompt_templates.py
+- Baseline total score: 5
+- Candidate total score: 4
+- Delta total score: -1
+
+## Candidate Feedback
+
+Priority fixes:
+- Criticalness (-1): The manuscript is a literature survey that synthesizes existing research (2024-2026) rather than presenting novel primary research. Its stated purpose is to establish current paradigms and synthesize findings. While it is comprehensive, well-structured, and identifies critical open problems, its core contribution is organization and summary of a rapidly maturing field, heavily anchored to a foundational 2025 survey. It does not propose new theories, frameworks, or empirical results itself. The critical perspective and insights are derived from the surveyed works, not originated by the manuscript.
+- Comprehensiveness (1): The manuscript presents a literature survey on a very recent and specialized topic (AI agent self-evolution, 2024-2026). It explicitly builds upon and repeatedly cites what it identifies as the foundational and synthesizing work (Fang et al., August 2025). The references listed at the end, while not formatted as standard citations, show direct engagement with numerous recent preprints, journal articles, and technical reports from 2025-2026, covering core topics like frameworks, methodologies (RL/ES comparisons, reward functions), ethics, safety, and applications. It avoids citing outdated sources, as the field itself is nascent. However, the evaluation is constrained by the excerpt's format—it synthesizes references into the narrative rather than providing a traditional bibliography, and it's possible some contemporaneous key works from the same period are not explicitly mentioned in the text. Given the stated scope and the apparent depth across multiple dimensions of the topic, the references appear adequately comprehensive for a survey of such a current field.
+Preserve these strengths:
+- Readability (2): The manuscript is very well-structured with clear hierarchical headings, logical flow between sections, and consistent formatting. Technical terms are defined upon introduction (e.g., self-evolving agents, the three-dimensional framework), and complex ideas are broken down into digestible lists and comparative tables (e.g., RL vs. ES advantages). The language is precise yet accessible for the intended academic audience, and the use of bold text for key concepts aids skimming. The executive summary and conclusion effectively frame the content.
+- Structure (2): The manuscript exhibits excellent structural organization with clear logical progression. It begins with an Executive Summary that outlines the entire paper, followed by a well-defined Introduction that establishes the field's scope and history. The subsequent sections build logically: Foundational Frameworks establish the core concepts, Methodological Approaches detail the technical implementation, Ethical Frameworks address critical considerations, Practical Applications demonstrate real-world relevance, and Open Problems identify future directions before a concluding summary. Each major section is subdivided into coherent, logically ordered subsections (e.g., 2.1.1, 2.1.2, 2.1.3), and transitions between sections are smooth, with concepts introduced in earlier sections (like the three-dimensional framework) being referenced and expanded upon later. The flow from theory to methodology to application to ethics and challenges is seamless and comprehensive.
+Revision guidance: strengthen missing representative prior work, improve section flow, and make the synthesis more comparative where scores indicate weakness.
+
+![Benchmark chart](D:\Codes\jingdong-claw\runs\openclaw-root-ai-agent-self-evolution-2\bench_scores.png)

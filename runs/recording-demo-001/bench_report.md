@@ -1,0 +1,19 @@
+# Prompt Templates Benchmark Report
+
+- Backend: prompt_templates_local_benchmark
+- Rubric source: prompt_templates.py
+- Baseline total score: 2
+- Candidate total score: 5
+- Delta total score: 3
+
+## Candidate Feedback
+
+Priority fixes:
+- Criticalness (-1): The manuscript is a well-structured and comprehensive literature survey that synthesizes and organizes a large body of recent research (up to 2026) on AI agent self-evolution. It demonstrates a strong command of the field's trajectory, from foundational methods to emerging paradigms like CORAL and autonomous code modification. However, its primary contribution is synthesis, organization, and critical summary rather than the generation of novel insights or theories. It effectively compares existing methodologies, highlights open challenges (safety, evaluation, scalability), and identifies future directions, but these are largely aggregations and extrapolations of current research trends. The work lacks a distinct, original thesis, framework, or critical perspective that challenges or significantly redefines the field's understanding. It is an excellent survey, but its criticalness is limited by its descriptive and summative nature.
+- Comprehensiveness (2): The manuscript demonstrates a strong and comprehensive grasp of the relevant literature. It effectively cites seminal foundational works (De Jong, Goldberg), key modern RL algorithms (SAC, PPO), and recent, highly relevant surveys and frameworks up to 2026 (Xiang et al., Gupta et al., CORAL, arXiv:2507.21046). It integrates classic evolutionary computation with modern deep learning, hybrid approaches (EvoRL), and cutting-edge topics like LLM integration, autonomous code modification, and safety protocols. The references are consistently relevant to the survey's scope, and there are no apparent major gaps or citations of outdated/irrelevant sources for a paper with a stated coverage up to early 2026.
+Preserve these strengths:
+- Comprehensiveness (2): The manuscript demonstrates a strong and comprehensive grasp of the relevant literature. It effectively cites seminal foundational works (De Jong, Goldberg), key modern RL algorithms (SAC, PPO), and recent, highly relevant surveys and frameworks up to 2026 (Xiang et al., Gupta et al., CORAL, arXiv:2507.21046). It integrates classic evolutionary computation with modern deep learning, hybrid approaches (EvoRL), and cutting-edge topics like LLM integration, autonomous code modification, and safety protocols. The references are consistently relevant to the survey's scope, and there are no apparent major gaps or citations of outdated/irrelevant sources for a paper with a stated coverage up to early 2026.
+- Readability (2): The manuscript is exceptionally well-structured and clearly written. It uses a logical hierarchical organization (sections, subsections) with informative headings that guide the reader. The language is precise and academic yet remains accessible, with complex concepts explained concisely (e.g., clear definitions, comparative tables in prose). The flow of ideas is smooth, moving from foundations to recent work to challenges and future directions. Key terms are introduced and used consistently. The executive summary and conclusion effectively frame the content. The presentation is professional and facilitates understanding of a complex topic.
+Revision guidance: strengthen missing representative prior work, improve section flow, and make the synthesis more comparative where scores indicate weakness.
+
+![Benchmark chart](D:\Codes\jingdong-claw\runs\recording-demo-001\bench_scores.png)

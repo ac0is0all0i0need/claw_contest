@@ -1,0 +1,12 @@
+{
+  "candidate": {
+    "label": "final_draft",
+    "run_dir": "D:\\Codes\\jingdong-claw\\runs\\recording-demo-001",
+    "draft_path": "D:\\Codes\\jingdong-claw\\runs\\recording-demo-001\\best_draft.md"
+  },
+  "baseline": {
+    "label": "initial_draft",
+    "run_dir": "",
+    "draft_path": "D:\\Codes\\jingdong-claw\\runs\\recording-demo-001\\initial_draft.md"
+  }
+}

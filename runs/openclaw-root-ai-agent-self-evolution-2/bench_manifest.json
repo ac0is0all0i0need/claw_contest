@@ -1,0 +1,12 @@
+{
+  "candidate": {
+    "label": "final_draft",
+    "run_dir": "D:\\Codes\\jingdong-claw\\runs\\openclaw-root-ai-agent-self-evolution-2",
+    "draft_path": "D:\\Codes\\jingdong-claw\\runs\\openclaw-root-ai-agent-self-evolution-2\\best_draft.md"
+  },
+  "baseline": {
+    "label": "initial_draft",
+    "run_dir": "",
+    "draft_path": "D:\\Codes\\jingdong-claw\\runs\\openclaw-root-ai-agent-self-evolution-2\\initial_draft.md"
+  }
+}

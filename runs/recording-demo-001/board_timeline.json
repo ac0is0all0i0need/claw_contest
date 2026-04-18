@@ -1,0 +1,121 @@
+[
+  {
+    "position": 1,
+    "stage_name": "generate_initial_draft_stage",
+    "round_index": 0,
+    "status": "completed",
+    "started_at": "2026-04-17T20:26:39.839650+00:00",
+    "ended_at": "2026-04-17T20:28:48.929973+00:00",
+    "summary": {
+      "mode": "topic",
+      "title": "Literature Survey on AI Agent Self-Evolution",
+      "execution_mode": "local_only",
+      "executor_backend": "local",
+      "fallback_reason": "",
+      "openclaw_request_id": ""
+    }
+  },
+  {
+    "position": 2,
+    "stage_name": "score_draft_stage",
+    "round_index": 0,
+    "status": "completed",
+    "started_at": "2026-04-17T20:28:48.929973+00:00",
+    "ended_at": "2026-04-17T20:29:07.790932+00:00",
+    "summary": {
+      "total_score": 2,
+      "average_score": 0.5,
+      "cache_used": false,
+      "execution_mode": "local_fallback",
+      "executor_backend": "local",
+      "fallback_reason": "executor_not_configured",
+      "openclaw_request_id": ""
+    }
+  },
+  {
+    "position": 3,
+    "stage_name": "finalize_scored_round_stage",
+    "round_index": 0,
+    "status": "completed",
+    "started_at": "2026-04-17T20:29:07.790932+00:00",
+    "ended_at": "2026-04-17T20:29:07.793941+00:00",
+    "summary": {
+      "total_score": 2,
+      "best_round_index": 0,
+      "best_total_score": 2,
+      "stop_reason": "continue",
+      "execution_mode": "local_only",
+      "executor_backend": "local",
+      "fallback_reason": "",
+      "openclaw_request_id": ""
+    }
+  },
+  {
+    "position": 4,
+    "stage_name": "revise_draft_stage",
+    "round_index": 0,
+    "status": "completed",
+    "started_at": "2026-04-17T20:29:07.793941+00:00",
+    "ended_at": "2026-04-17T20:33:25.248497+00:00",
+    "summary": {
+      "candidate_count": 2,
+      "best_candidate_total_score": 7,
+      "execution_mode": "local_fallback",
+      "executor_backend": "local",
+      "fallback_reason": "executor_not_configured",
+      "openclaw_request_id": ""
+    }
+  },
+  {
+    "position": 5,
+    "stage_name": "advance_or_stop_stage",
+    "round_index": 0,
+    "status": "completed",
+    "started_at": "2026-04-17T20:33:25.248497+00:00",
+    "ended_at": "2026-04-17T20:33:25.248497+00:00",
+    "summary": {
+      "should_continue": true,
+      "stop_reason": "continue",
+      "next_total_score": 7,
+      "execution_mode": "local_only",
+      "executor_backend": "local",
+      "fallback_reason": "",
+      "openclaw_request_id": ""
+    }
+  },
+  {
+    "position": 6,
+    "stage_name": "score_draft_stage",
+    "round_index": 1,
+    "status": "completed",
+    "started_at": "2026-04-17T20:33:25.248497+00:00",
+    "ended_at": "2026-04-17T20:33:25.248497+00:00",
+    "summary": {
+      "total_score": 7,
+      "average_score": 1.75,
+      "cache_used": true,
+      "execution_mode": "local_fallback",
+      "executor_backend": "local",
+      "fallback_reason": "executor_not_configured",
+      "openclaw_request_id": ""
+    }
+  },
+  {
+    "position": 7,
+    "stage_name": "finalize_scored_round_stage",
+    "round_index": 1,
+    "status": "completed",
+    "started_at": "2026-04-17T20:33:25.248497+00:00",
+    "ended_at": "2026-04-17T20:33:25.254569+00:00",
+    "summary": {
+      "total_score": 7,
+      "best_round_index": 1,
+      "best_total_score": 7,
+      "stop_reason": "max_rounds_reached",
+      "execution_mode": "local_only",
+      "executor_backend": "local",
+      "fallback_reason": "",
+      "openclaw_request_id": ""
+    }
+  }
+]

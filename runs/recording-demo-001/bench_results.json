@@ -1,0 +1,69 @@
+{
+  "backend": "prompt_templates_local_benchmark",
+  "rubric_source": "prompt_templates.py",
+  "baseline": {
+    "draft_path": "D:\\Codes\\jingdong-claw\\runs\\recording-demo-001\\initial_draft.md",
+    "title": "Literature Survey on AI Agent Self-Evolution",
+    "total_score": 2,
+    "feedback_summary": "Priority fixes:\n- Comprehensiveness (-1): The manuscript's reference list is extensive and includes recent surveys (2025-2026), key frameworks (CORAL, EvoRL), and foundational comparisons. However, the in-text citations are sparse and vague (e.g., \"Research by SY Luis (2021)\", \"A 2024-2025 systematic review\"), failing to properly attribute specific claims to the detailed sources listed. This creates a disconnect between the content and the bibliography, making it difficult to assess the true relevance and completeness of the cited works. While the scope of sources appears broad, the lack of precise, integrated citation undermines the comprehensiveness of the scholarly presentation.\n- Criticalness (-1): The manuscript is explicitly a literature survey. Its primary function is to synthesize and organize existing knowledge up to 2026, not to present original research, novel theories, or critical new insights. While it demonstrates good depth in summarizing the field's trajectory, key frameworks (EvoRL, CORAL), and challenges, it does not offer a new critical perspective or a unique contribution beyond the compilation and structuring of prior work. The \"speculative\" future directions are presented as a summary of open problems from the surveyed literature, not as an original argument or thesis from the authors.\nPreserve these strengths:\n- Readability (2): The manuscript is very well-structured with clear headings, logical flow, and concise summaries. Technical terms are defined upon first use (e.g., EvoRL, CORAL), and complex ideas are broken down into bullet points and sub-sections for ease of comprehension. The writing is professional yet accessible, guiding the reader from background through methodologies to future directions without confusion. The executive summary and conclusion effectively frame the content.\n- Structure (2): The manuscript exhibits a clear and logical structure. It begins with an Executive Summary that outlines the entire report, followed by a well-defined Introduction. The body progresses methodically from foundational prior work and methodological comparisons (Section 2) to recent surveys that provide structured frameworks (Section 3), then to current technological advancements (Section 4), and critical challenges (Section 5). It logically culminates in Open Problems and Future Directions (Section 6) before the Conclusion. Each section builds upon the previous, creating a coherent narrative flow from foundations to current state to future outlook. The connections between sections are explicit and sensible.\nRevision guidance: strengthen missing representative prior work, improve section flow, and make the synthesis more comparative where scores indicate weakness.",
+    "scores": [
+      {
+        "dimension": "Readability",
+        "score": 2,
+        "reason": "The manuscript is very well-structured with clear headings, logical flow, and concise summaries. Technical terms are defined upon first use (e.g., EvoRL, CORAL), and complex ideas are broken down into bullet points and sub-sections for ease of comprehension. The writing is professional yet accessible, guiding the reader from background through methodologies to future directions without confusion. The executive summary and conclusion effectively frame the content."
+      },
+      {
+        "dimension": "Structure",
+        "score": 2,
+        "reason": "The manuscript exhibits a clear and logical structure. It begins with an Executive Summary that outlines the entire report, followed by a well-defined Introduction. The body progresses methodically from foundational prior work and methodological comparisons (Section 2) to recent surveys that provide structured frameworks (Section 3), then to current technological advancements (Section 4), and critical challenges (Section 5). It logically culminates in Open Problems and Future Directions (Section 6) before the Conclusion. Each section builds upon the previous, creating a coherent narrative flow from foundations to current state to future outlook. The connections between sections are explicit and sensible."
+      },
+      {
+        "dimension": "Criticalness",
+        "score": -1,
+        "reason": "The manuscript is explicitly a literature survey. Its primary function is to synthesize and organize existing knowledge up to 2026, not to present original research, novel theories, or critical new insights. While it demonstrates good depth in summarizing the field's trajectory, key frameworks (EvoRL, CORAL), and challenges, it does not offer a new critical perspective or a unique contribution beyond the compilation and structuring of prior work. The \"speculative\" future directions are presented as a summary of open problems from the surveyed literature, not as an original argument or thesis from the authors."
+      },
+      {
+        "dimension": "Comprehensiveness",
+        "score": -1,
+        "reason": "The manuscript's reference list is extensive and includes recent surveys (2025-2026), key frameworks (CORAL, EvoRL), and foundational comparisons. However, the in-text citations are sparse and vague (e.g., \"Research by SY Luis (2021)\", \"A 2024-2025 systematic review\"), failing to properly attribute specific claims to the detailed sources listed. This creates a disconnect between the content and the bibliography, making it difficult to assess the true relevance and completeness of the cited works. While the scope of sources appears broad, the lack of precise, integrated citation undermines the comprehensiveness of the scholarly presentation."
+      }
+    ],
+    "backend": "prompt_templates_local_benchmark",
+    "rubric_source": "prompt_templates.py",
+    "provider": "deepseek",
+    "model": "deepseek-chat"
+  },
+  "candidate": {
+    "draft_path": "D:\\Codes\\jingdong-claw\\runs\\recording-demo-001\\best_draft.md",
+    "title": "Literature Survey on AI Agent Self-Evolution: Methodologies, Frameworks, and Open Challenges",
+    "total_score": 5,
+    "feedback_summary": "Priority fixes:\n- Criticalness (-1): The manuscript is a well-structured and comprehensive literature survey that synthesizes and organizes a large body of recent research (up to 2026) on AI agent self-evolution. It demonstrates a strong command of the field's trajectory, from foundational methods to emerging paradigms like CORAL and autonomous code modification. However, its primary contribution is synthesis, organization, and critical summary rather than the generation of novel insights or theories. It effectively compares existing methodologies, highlights open challenges (safety, evaluation, scalability), and identifies future directions, but these are largely aggregations and extrapolations of current research trends. The work lacks a distinct, original thesis, framework, or critical perspective that challenges or significantly redefines the field's understanding. It is an excellent survey, but its criticalness is limited by its descriptive and summative nature.\n- Comprehensiveness (2): The manuscript demonstrates a strong and comprehensive grasp of the relevant literature. It effectively cites seminal foundational works (De Jong, Goldberg), key modern RL algorithms (SAC, PPO), and recent, highly relevant surveys and frameworks up to 2026 (Xiang et al., Gupta et al., CORAL, arXiv:2507.21046). It integrates classic evolutionary computation with modern deep learning, hybrid approaches (EvoRL), and cutting-edge topics like LLM integration, autonomous code modification, and safety protocols. The references are consistently relevant to the survey's scope, and there are no apparent major gaps or citations of outdated/irrelevant sources for a paper with a stated coverage up to early 2026.\nPreserve these strengths:\n- Comprehensiveness (2): The manuscript demonstrates a strong and comprehensive grasp of the relevant literature. It effectively cites seminal foundational works (De Jong, Goldberg), key modern RL algorithms (SAC, PPO), and recent, highly relevant surveys and frameworks up to 2026 (Xiang et al., Gupta et al., CORAL, arXiv:2507.21046). It integrates classic evolutionary computation with modern deep learning, hybrid approaches (EvoRL), and cutting-edge topics like LLM integration, autonomous code modification, and safety protocols. The references are consistently relevant to the survey's scope, and there are no apparent major gaps or citations of outdated/irrelevant sources for a paper with a stated coverage up to early 2026.\n- Readability (2): The manuscript is exceptionally well-structured and clearly written. It uses a logical hierarchical organization (sections, subsections) with informative headings that guide the reader. The language is precise and academic yet remains accessible, with complex concepts explained concisely (e.g., clear definitions, comparative tables in prose). The flow of ideas is smooth, moving from foundations to recent work to challenges and future directions. Key terms are introduced and used consistently. The executive summary and conclusion effectively frame the content. The presentation is professional and facilitates understanding of a complex topic.\nRevision guidance: strengthen missing representative prior work, improve section flow, and make the synthesis more comparative where scores indicate weakness.",
+    "scores": [
+      {
+        "dimension": "Readability",
+        "score": 2,
+        "reason": "The manuscript is exceptionally well-structured and clearly written. It uses a logical hierarchical organization (sections, subsections) with informative headings that guide the reader. The language is precise and academic yet remains accessible, with complex concepts explained concisely (e.g., clear definitions, comparative tables in prose). The flow of ideas is smooth, moving from foundations to recent work to challenges and future directions. Key terms are introduced and used consistently. The executive summary and conclusion effectively frame the content. The presentation is professional and facilitates understanding of a complex topic."
+      },
+      {
+        "dimension": "Structure",
+        "score": 2,
+        "reason": "The manuscript exhibits excellent structural organization. It follows a clear and logical progression from an executive summary and introduction, through foundational methodologies and recent surveys, to emerging paradigms, critical challenges, and future directions, culminating in a conclusion. Each section builds upon the previous one, with clear transitions and thematic connections. Subsections are well-defined and hierarchically logical (e.g., moving from EA vs. RL to their hybrid, then to co-evolution). The flow from describing the field's state to analyzing its problems and then projecting its future is seamless and coherent."
+      },
+      {
+        "dimension": "Criticalness",
+        "score": -1,
+        "reason": "The manuscript is a well-structured and comprehensive literature survey that synthesizes and organizes a large body of recent research (up to 2026) on AI agent self-evolution. It demonstrates a strong command of the field's trajectory, from foundational methods to emerging paradigms like CORAL and autonomous code modification. However, its primary contribution is synthesis, organization, and critical summary rather than the generation of novel insights or theories. It effectively compares existing methodologies, highlights open challenges (safety, evaluation, scalability), and identifies future directions, but these are largely aggregations and extrapolations of current research trends. The work lacks a distinct, original thesis, framework, or critical perspective that challenges or significantly redefines the field's understanding. It is an excellent survey, but its criticalness is limited by its descriptive and summative nature."
+      },
+      {
+        "dimension": "Comprehensiveness",
+        "score": 2,
+        "reason": "The manuscript demonstrates a strong and comprehensive grasp of the relevant literature. It effectively cites seminal foundational works (De Jong, Goldberg), key modern RL algorithms (SAC, PPO), and recent, highly relevant surveys and frameworks up to 2026 (Xiang et al., Gupta et al., CORAL, arXiv:2507.21046). It integrates classic evolutionary computation with modern deep learning, hybrid approaches (EvoRL), and cutting-edge topics like LLM integration, autonomous code modification, and safety protocols. The references are consistently relevant to the survey's scope, and there are no apparent major gaps or citations of outdated/irrelevant sources for a paper with a stated coverage up to early 2026."
+      }
+    ],
+    "backend": "prompt_templates_local_benchmark",
+    "rubric_source": "prompt_templates.py",
+    "provider": "deepseek",
+    "model": "deepseek-chat"
+  },
+  "delta_total_score": 3
+}
